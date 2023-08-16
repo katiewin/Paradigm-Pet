@@ -1,0 +1,90 @@
+:root{
+    --dark-prime-color: #003B6D;
+    --light-prime-color: #6699CC;
+
+    --dark-secondary-color: #676767;
+    --light-secondary-color: #BDBDBD;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inika', serif;
+    border-color: transparent;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color:  var(--dark-prime-color);
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 10%;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li{
+    padding-right: 2rem;
+    padding-top: 2rem;
+    color: var(--light-secondary-color);
+}
+
+.nav li:hover{
+    cursor: pointer;
+    color: var(--light-prime-color);
+    transition: .2s;
+}
+
+
+
+footer{
+    margin-top: 3rem;
+    background-color: var(--dark-prime-color);
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    justify-content: space-around;
+    border-top: solid .5rem var(--light-secondary-color);
+}
+
+footer h2, h3{
+    color: var(--light-secondary-color);
+    margin-bottom: .5rem;
+}
+
+.width{
+width: 30%;
+}
+
+footer div{
+    color: white;
+    font-size: smaller;
+    margin-right: .3rem;
+}
+
+.link div p{
+    color: white;
+    margin-left: .5rem;
+    margin-bottom: .4rem;
+}
+
+
+.link{
+    display: flex;
+}
